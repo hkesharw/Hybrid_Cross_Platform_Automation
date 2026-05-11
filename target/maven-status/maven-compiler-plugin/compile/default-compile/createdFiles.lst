@@ -1,0 +1,3 @@
+drivers\DriverManager.class
+healing\SelfHealingEngine.class
+reporting\ExtentReportManager.class

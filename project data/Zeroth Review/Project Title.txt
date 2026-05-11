@@ -1,0 +1,1 @@
+Hybrid Cross‑Platform Automation Framework with Self‑Healing Tests

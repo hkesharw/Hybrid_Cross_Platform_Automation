@@ -1,0 +1,4 @@
+tests\DemoModeTest$MockWebElement.class
+tests\DemoModeTest.class
+tests\DemoModeTest$MockWebDriver.class
+tests\SmokeTest.class
