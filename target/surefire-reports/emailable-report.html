@@ -9,36 +9,13 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">5,373</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2,936</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.SmokeTest</td><td><a href="#m0">demoModeLoginHealing</a></td><td rowspan="1">1778493928907</td><td rowspan="1">2542</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">tests.DemoModeTest</td><td><a href="#m1">demonstrateFrameworkStatistics</a></td><td rowspan="1">1778493926419</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m2">demonstrateLoginButtonHealing</a></td><td rowspan="1">1778493926371</td><td rowspan="1">22</td></tr><tr class="passedeven"><td><a href="#m3">demonstrateSubmitButtonHealing</a></td><td rowspan="1">1778493926399</td><td rowspan="1">8</td></tr><tr class="passedeven"><td><a href="#m4">demonstrateUsernameFieldHealing</a></td><td rowspan="1">1778493926409</td><td rowspan="1">9</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">tests.DemoModeTest</td><td><a href="#m0">demonstrateFrameworkStatistics</a></td><td rowspan="1">1780119248849</td><td rowspan="1">5</td></tr><tr class="passedeven"><td><a href="#m1">demonstrateLoginButtonHealing</a></td><td rowspan="1">1780119248786</td><td rowspan="1">32</td></tr><tr class="passedeven"><td><a href="#m2">demonstrateSubmitButtonHealing</a></td><td rowspan="1">1780119248825</td><td rowspan="1">9</td></tr><tr class="passedeven"><td><a href="#m3">demonstrateUsernameFieldHealing</a></td><td rowspan="1">1780119248836</td><td rowspan="1">10</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">tests.SmokeTest#demoModeLoginHealing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 147.0.7727.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
-Host info: host: &apos;HIMANSHU&apos;, ip: &apos;192.168.1.12&apos;
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --ignore-certificate-errors], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:154)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:107)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:87)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
-	at drivers.DriverManager.getDriver(DriverManager.java:39)
-	at tests.SmokeTest.demoModeLoginHealing(SmokeTest.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.DemoModeTest#demonstrateFrameworkStatistics</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.DemoModeTest#demonstrateLoginButtonHealing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.DemoModeTest#demonstrateSubmitButtonHealing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.DemoModeTest#demonstrateUsernameFieldHealing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">tests.DemoModeTest#demonstrateFrameworkStatistics</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.DemoModeTest#demonstrateLoginButtonHealing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.DemoModeTest#demonstrateSubmitButtonHealing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.DemoModeTest#demonstrateUsernameFieldHealing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
